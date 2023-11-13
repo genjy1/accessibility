@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --blue: #3670C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding: 29px 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+}
+
+.c3670C7{
+    color: var(--blue);
+    font-family: Open Sans, sans-serif;
+}
+
+.menu{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 9px 30px 12px 28px;
+    border: 1px solid transparent;
+    font-family:Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-img{
+    margin-right: 3px;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    border: 1px solid transparent;
+    padding: 15px 0;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 700px;
+}
+
+.search-btn{
+    border-radius: 30px;
+    border: 1px solid transparent;
+    padding: 9px 32px;
+    background-color: var(--blue);
+}
+
+.nav__list{
+    display: flex;
+    gap: 70px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    border: 1px solid transparent;
+}
+
+.item-img{
+    width: 36px;
+    height: 36px;
+    padding-bottom: 4px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner{
+    color: #fff;
+    background-image: url('./image/afbbc6bf49bf25e9897004070dacb911.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 1770px;
+    border-radius: 30px;
+}
+
+.banner__overlay-description{
+    padding: 145px 953px 100px 112px;
+}
+
+.overlay__timer-wrapper{
+    padding: 0 648px 40px 649px;
+}
+
+
+.timer{
+    display: flex;
+    gap: 30px;
+}
+
+.digits{
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.timer-characteristic{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.profit{
+    display: grid;
+    grid-template-columns: repeat(4,420px);
+    gap: 47px 30px;
+}
+
+.profit-card{
+    display: block;
+}
+
+.profit__card-image{
+    width: 420px;
+    border-radius: 14px;
+}
+
+.price__wrapper{
+    display: flex;
+    gap: 28px;
+    color: #2D2D2D;
+    font-weight: 700;
+    font-size: 28px;
+    align-items: center;
+}
+
+.price-through{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.sale-wrapper{
+    position: relative;
+    top: 261px;
+    left: 20px;
+    background-color: #FFBD13;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    background-position: 80%;
+}
+
+.sale{
+    line-height: 130%;
+    position: relative;
+    left: 8px;
+    top: 24px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}

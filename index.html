@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopOnline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header container">
+        <a href="./index.html" class="header-logo link">Shop<span class="c3670C7">Online</span></a>
+        <button class="menu" aria-label="Кнопка меню"><img src="./image/icons/menu.svg" alt="Иконка меню" class="menu-img">Меню</button>
+        <form action="./index.html" method="get" id="search">
+            <input type="text" placeholder="Я ищу..." class="search-input" name="search">
+            <button class="search-btn"><img src="./image/icons/search.svg" alt="Иконка поиска"></button>
+        </form>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="list-item"><button class="nav-btn"><img src="./image/icons/person.svg" alt="Иконка профиль" class="item-img">Профиль</button></li>
+                <li class="list-item"><button class="nav-btn"><img src="./image/icons/cart.svg" alt="Иконка корзины" class="item-img">Корзина</button></li>
+                <li class="list-item"><button class="nav-btn"><img src="./image/icons/favorite.svg" alt="Иконка избранное" class="item-img">Избранное</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner container">
+        <div class="overlay__wrapper">
+            <div class="overlay">
+                <h1 class="banner__overlay-description" aria-label="Описание банера" tabindex="1">-50% на все ноутбуки</h1>
+            </div>
+            <div class="overlay__timer-wrapper">
+                <h2 class="timer-description">
+                    До конца акции осталось:
+                </h2>
+                <div class="timer" aria-label="Длительность банера" tabindex="1">
+                    <p class="timer-day timer-characteristic" aria-label="Осталось дней"><span class="digits">3</span>дня</p>
+                    <p class="timer-hours timer-characteristic" aria-label="Осталось часов"><span class="digits">8</span>часов</p>
+                    <p class="timer-minutes timer-characteristic" aria-label="Осталось минут"><span class="digits">43</span>минуты</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="main container">
+        <div class="offers">
+            
+        </div>
+        <div class="profit">
+            
+        </div>
+    </main>
+    <footer class="footer container">
+
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>

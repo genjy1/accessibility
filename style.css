@@ -96,6 +96,7 @@ li{
     flex-direction: column;
     font-weight: 700;
     border: 1px solid transparent;
+    background: transparent;
 }
 
 .item-img{
@@ -192,4 +193,131 @@ h1{
     font-size: 30px;
     font-weight: 700;
     color: #fff;
+}
+
+.offers{
+    display: grid;
+    grid-template-areas:     
+    "book clock shoes shoes gift gift"
+    "sneaker sneaker shoes shoes comp comp"
+    "year year year year dress proper"
+    "year year year year dress newyear"
+    ;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.offer-card{
+    background-repeat: no-repeat;
+}
+
+.book, .clock, .newyear, .proper {
+    width: 245px;
+    height: 245px;
+}
+
+.book{
+    grid-area: book;
+}
+
+.clock{
+    grid-area: clock;
+}
+
+.shoes{
+    grid-area: shoes;
+    width: 550px;
+    height: 550px;
+}
+
+.newyear{
+    grid-area: newyear;
+}
+
+.comp, .gift, .sneaker {
+    width: 550px;
+    height: 245px;
+}
+
+.sneaker{
+    grid-area: sneaker;
+}
+
+.comp{
+    grid-area: comp;
+}
+
+.year{
+    grid-area: year;
+    width: 1160px;
+    height: 550px;
+}
+
+.gift{
+    grid-area: gift;
+}
+
+.dress{
+    grid-area: dress;
+    width: 245px;
+    height: 550px;
+}
+
+.offer-card{
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 20px;
+}
+
+.discount{
+    border-radius: 50%;
+    background-color: #FFBD13;
+    color: #fff;
+    max-width: 88px;
+    
+}
+
+.discount-content{
+    padding: 34px 0;
+    text-align: center;
+}
+
+.shoes-discount{
+    display: none;
+}
+
+.gift-discount{
+    display: none;
+}
+
+.book-discount{
+    display: none;
+}
+
+.year-discount{
+    display: none;
+}
+
+.newyear-discount{
+    display: none;
+}
+
+.book-content{
+    padding: 97px 20px 20px 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.shoes-content{
+
+}
+
+.clock-content{
+    padding: 78px 14px 20px 25px;
+
+}
+
+.dress-discount{
+    margin: 442px 20px 20px 137px;
 }

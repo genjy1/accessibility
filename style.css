@@ -176,13 +176,33 @@ h1{
 
 .sale-wrapper{
     position: relative;
-    top: 261px;
+    top: -107px;
     left: 20px;
     background-color: #FFBD13;
     border-radius: 50%;
     width: 88px;
     height: 88px;
     background-position: 80%;
+}
+
+.proper{
+    height: 245px;
+    padding: 0px 48px 0px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.proper-content{
+    max-width: 177px;
+    color: var(--1, #FFF);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.text-container{
+    margin-top:-88px ;
 }
 
 .sale{
@@ -207,11 +227,7 @@ h1{
     margin-top: 60px;
 }
 
-.offer-card{
-    background-repeat: no-repeat;
-}
-
-.book, .clock, .newyear, .proper {
+.book, .clock, .newyear {
     width: 245px;
     height: 245px;
 }
@@ -245,7 +261,31 @@ h1{
 
 .comp{
     grid-area: comp;
+    display: flex;
+    align-items: flex-end;
+    max-width: 550px;
 }
+
+.comp-content{
+    color: #fff;
+    margin-right: 39px;
+    font-size: 40px;
+    padding: 0 30px 30px;
+    white-space:nowrap;
+}
+
+.comp > .discount{
+    width: 88px;
+    height: 88px;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+}
+
+/* .clock-discount{
+    position: relative;
+    bottom: 30px;
+} */
 
 .year{
     grid-area: year;
@@ -255,6 +295,21 @@ h1{
 
 .gift{
     grid-area: gift;
+    color: var(--1, #FFF);
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+}
+
+.gift-content{
+    backdrop-filter: brightness(.8);
+    padding: 104px 30px 36px 30px;
+}
+
+.sneaker-discount{
+    margin: 20px 0 0 20px;
 }
 
 .dress{
@@ -263,7 +318,12 @@ h1{
     height: 550px;
 }
 
+.offer-content{
+    border-radius: 20px;
+}
+
 .offer-card{
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     border-radius: 20px;
@@ -278,6 +338,7 @@ h1{
 }
 
 .discount-content{
+    width: 88px;
     padding: 34px 0;
     text-align: center;
 }
@@ -310,14 +371,60 @@ h1{
 }
 
 .shoes-content{
+    max-width: 510px;
+    color: #fff;
+    color: var(--1, #FFF);
+    padding: 26px 23px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 48px */
+    border-radius: 20px;
+    background: #38C0EB;
+    margin: 350px 20px 20px;
+}
 
+.clock-discount{
+    margin-left: 123px;
 }
 
 .clock-content{
-    padding: 78px 14px 20px 25px;
+    padding: 78px 25px 20px 14px;
+    white-space: nowrap;
 
 }
 
 .dress-discount{
     margin: 442px 20px 20px 137px;
+}
+
+.clock-content{
+    color: var(--1, #FFF);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.profit-header{
+    margin: 100px 0 50px;
+    color: var(--3, #2D2D2D);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+}
+
+
+
+.year-content{
+    border-radius: 20px;
+    background: var(--1, #FFF);
+    color: #F91155;
+    padding: 32px 41px;
+    max-width: 643px;
+    margin: 380px 50px 50px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    text-transform: uppercase;
 }
